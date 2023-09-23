@@ -1,0 +1,46 @@
+/* --------------------------------------------------   home image */
+
+.home-image {
+    position: relative;
+}
+
+.home-half-1 {
+    background: url("../images/home-half-1.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    background-position: right top;
+    border-right: 2px solid #e6d9bc;
+}
+
+.home-half-2 {
+    background: url("../images/home-half-2.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    background-position: left top;
+    border-left: 2px solid #1e1712;
+    
+}
+
+/* --------------------------------------------------   home button */
+
+.home-button {
+}
+
+.btn {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border: 2px solid #0A0B0B;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../images/logo-black.png") no-repeat center center;
+    background-size: contain;
+}
+
+.btn:hover {
+    background: url("../images/logo-white.png") no-repeat center center;
+    background-size: contain;
+    border: 2px solid #e6d9bc;
+}
